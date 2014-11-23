@@ -65,14 +65,14 @@ features_b <- features_a[,2]
  ds_testNtrain_d <- ds_testNtrain_c[,selectedAttr]
  
  ## write data to csv
- write.csv(ds_testNtrain_d,"ds_testNtrain_d.csv")
+ write.table(ds_testNtrain_d,"ds_testNtrain_d.txt", row.name= FALSE)
 
  ## 2nd Dataset with aggregated mean by activity and subject
  ds_testNtrain_e <- aggregate(ds_testNtrain_d,by=list(activity = ds_testNtrain_d$activity,subject=ds_testNtrain_d$subject),mean) 
  ds_tidy <- ds_testNtrain_e[,c(1,2,5:82)]
  
  ## write tidy data to csv
- write.csv(ds_tidy,"ds_tidy.csv")
+ write.table(ds_tidy,"ds_tidy.txt", row.name= FALSE)
  
  
  
