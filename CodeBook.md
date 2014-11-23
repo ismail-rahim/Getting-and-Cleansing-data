@@ -16,6 +16,8 @@ The attached R script (run_analysis.R) performs the following to clean up the da
 	- /activity_labels.txt (map description the type of activities)
 	
 * 2. Apply the name of features to be meaningful column names to the datasets. (The features will be used as variable names as it is meaningful and descriptive)
+	- Activity: The type of activity involved for the measurement.
+	- Subject: The observation that is being measured.
 
 * 3. Rename columns (subject and activity) in both test and train datasets to be meaningful.
 
@@ -39,5 +41,7 @@ The attached R script (run_analysis.R) performs the following to clean up the da
 
 * 9. Write and output it to .csv files.
 
+
+		
 
 
