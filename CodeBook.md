@@ -25,13 +25,13 @@ The attached R script (run_analysis.R) performs the following to clean up the da
 
 * 6. Merge and map the activity code to actual names of the activities below:
 
-** Activity code		Activity Description
-**		1 				WALKING
-**		2 				WALKING_UPSTAIRS
-**		3 				WALKING_DOWNSTAIRS
-**		4 				SITTING
-**		5 				STANDING
-**		6 				LAYING
+ Activity code		Activity Description
+		1 				WALKING
+		2 				WALKING_UPSTAIRS
+		3 				WALKING_DOWNSTAIRS
+		4 				SITTING
+		5 				STANDING
+		6 				LAYING
 
 * 7. Subset only measurements that involves mean and standard deviations (std).
 
